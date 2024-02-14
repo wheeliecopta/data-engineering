@@ -189,9 +189,9 @@ def get_lat_lon(cities_list):
 def update_cities(request):
 
     # Set up the connection string for the MySQL database
-    connection_name = "root-beacon-411317:europe-west1:gans-mysql-db"
+    connection_name = "[CONNECTION]"
     db_user = "root"
-    db_password = "g1Droddl2b"
+    db_password = "[PASSWORD]"
     schema_name = "gans_scooters"
 
     driver_name = 'mysql+pymysql'
